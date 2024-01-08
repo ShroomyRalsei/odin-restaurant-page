@@ -1,0 +1,103 @@
+body {
+  background-color:grey;
+}
+
+body, .content, .text {
+  flex-direction:column;
+  gap:2rem;
+}
+
+* {
+  margin:0;
+  padding:0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.content, .box {
+  align-items:center;
+}
+
+.container {
+  background-color:greenyellow;
+}
+
+.header, .footer {
+  justify-content:center;
+  gap:1rem;
+}
+
+body, .container, .box {
+  display:flex;
+}
+
+.container, .tab-changer, .box {
+  padding:1rem;
+}
+
+.tab-changer {
+  border:1px solid black;
+  font-size:1rem;
+}
+
+img {
+  height:auto;
+}
+
+main {
+  align-self:center;
+}
+
+.box, .restaurant-img {
+  width:50vw;
+}
+
+.box {
+  border:5px solid black;
+  box-sizing:border-box;
+}
+
+.box, h3, p > button {
+  font-size:1.5rem;
+}
+
+h1, h2, h3 {
+  text-align:center;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+  font-size:1.75rem;
+}
+
+.text > img {
+  width:85%;
+}
+
+.contact > img {
+  width:15vw;
+}
+
+.contact {
+  justify-content:space-evenly;
+}
+
+button {
+  appearance:none;
+  background-color:transparent;
+}
+
+h4 {
+  font-weight:normal;
+}
+
+p > button {
+  border:none;
+  color:purple;
+  cursor:pointer;
+}
+
+@media (max-width:500px){
+  .contact {
+    flex-direction:column;
+  }
+}
